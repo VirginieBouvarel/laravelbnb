@@ -30,11 +30,11 @@
                     </li>
                     </ul>
                 </div>
-                </nav>
+            </nav>
 
-                <div class="container">
-                    <router-view></router-view>
-                </div>
+            <div class="container">
+                <router-view></router-view>
+            </div>
         
         </div>
         <script src="/js/app.js"></script>
