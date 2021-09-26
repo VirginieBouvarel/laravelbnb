@@ -1,6 +1,8 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+  <nav class="navbar navbar-expand-lg navbar-light border-bottom bg-light">
+    <router-link :to="{ name: 'home' }" class="navbar-brand" href="#"
+      >LaravelBnb</router-link
+    >
     <button
       class="navbar-toggler"
       type="button"
@@ -16,10 +18,12 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <router-link to="/" class="nav-link">Accueil</router-link>
+          <router-link :to="{ name: 'home' }" class="nav-link"
+            >Accueil</router-link
+          >
         </li>
         <li class="nav-item">
-          <router-link to="/tasks" class="nav-link"
+          <router-link :to="{ name: 'tasks' }" class="nav-link"
             >Liste des tâches</router-link
           >
         </li>
