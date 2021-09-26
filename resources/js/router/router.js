@@ -1,7 +1,7 @@
 
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Home from '../pages/Home.vue';
+import Bookables from '../pages/Bookables.vue';
 import About from '../pages/About.vue';
 
 
@@ -13,7 +13,7 @@ const router = new VueRouter({
     {
       path: '/',
       name: "home",
-      component: Home
+      component: Bookables
     },
     {
       path: '/about',

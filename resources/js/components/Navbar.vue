@@ -19,7 +19,7 @@
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
           <router-link :to="{ name: 'home' }" class="nav-link"
-            >Accueil</router-link
+            >Bookables</router-link
           >
         </li>
         <li class="nav-item">
