@@ -23,8 +23,8 @@
           >
         </li>
         <li class="nav-item">
-          <router-link :to="{ name: 'tasks' }" class="nav-link"
-            >Liste des tâches</router-link
+          <router-link :to="{ name: 'about' }" class="nav-link"
+            >A propos</router-link
           >
         </li>
       </ul>
@@ -33,11 +33,7 @@
 </template>
 
 <script>
-export default {
-  mounted() {
-    console.log("Navbar mounted");
-  },
-};
+export default {};
 </script>
 
 <style lang="scss" scoped>

@@ -1,8 +1,8 @@
 
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Home from '../views/HomeComponent.vue';
-import Task from '../views/TaskComponent.vue';
+import Home from '../pages/Home.vue';
+import About from '../pages/About.vue';
 
 
 Vue.use(VueRouter);
@@ -16,9 +16,9 @@ const router = new VueRouter({
       component: Home
     },
     {
-      path: '/tasks',
-      name: "tasks",
-      component: Task
+      path: '/about',
+      name: "about",
+      component: About
     },
   ]
 });
